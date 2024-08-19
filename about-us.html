@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa:wght@200..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Fredoka:wght@300..700&family=Fustat:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Licorice&family=Oswald:wght@200..700&family=Playwrite+MX:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Travel</title>
+</head>
+
+
+<body>
+
+
+
+
+    <header>
+
+        <div class="box-one">
+            
+            <div class="company-logo">
+                LOGO
+            </div>
+            <div class="company-name">
+                TRAVEL
+            </div>
+            
+
+        <!--BOX-ONE-->
+        </div>
+        <div class="box-two">
+            <button class="navbar-button" onclick="showmore()">
+                <i class="fa fa-list" id="menu-icon"></i>
+            </button>
+        <!--BOX-TWO-->
+        </div>
+        <div class="box-three">
+
+            <button onclick="langaugebox()">
+                <i class="fa fa-language"></i>
+            </button>
+
+            <div class="navbar">
+
+                <ul>
+                    <li>
+                        <a href="index.html" id="home">Home</a>
+                        <a href="#" id="ticket">Ticket</a>
+                        <a href="about-us.html" id="aboutus">About us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        <!--BOX-THREE-->
+        </div>
+        <div id="langauge-box">
+            <a href="#">English</a>
+
+            <a href="#">Arabic</a>
+  
+            <a href="#">Kurdish</a>
+        </div>
+
+
+    </header>
+    <div id="navbar-phone">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <br>
+                <a href="#">Ticket</a>
+                <br>
+                <a href="about-us.html">About us</a>
+            </li>
+
+        </ul>
+        <div class="langauge-phone">
+            <div class="change-langauge">Change langauage:</div>
+            <ul>
+                <li>
+                    <a href="#">English</a>
+                    <a href="#">Arabic</a>
+                    <a href="#">Kurdish</a>
+                </li>
+    
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="title-two">About Us</div>
+        <div class="about-us">
+
+            <div class="text-box">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui mollitia soluta alias reprehenderit dolor illo, ea iusto! Voluptates recusandae ut aspernatur itaque ipsam harum ab molestias, eaque impedit, eveniet laborum.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis distinctio quam perspiciatis fugit esse accusamus, eveniet eligendi excepturi qui harum enim velit, quasi ab ad sequi officiis ratione tempore nam.
+            </div>
+            <div class="image-box">
+                <img src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </div>
+        <div class="title-two">Address</div>
+        <div class="address">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.593282149948!2d42.684542675192!3d37.13859017215256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400919c22cdb6373%3A0x1cae29ed4cf7a114!2szakho%20travel!5e0!3m2!1sen!2siq!4v1724065001313!5m2!1sen!2siq" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+        </div>
+        
+
+
+    <footer>
+        <div class="footer-box-two">
+            <div class="text-box">
+             <div class="title">Company-Name</div>
+             <div class="information">
+                 <div class="address">
+                    <i class="fa fa-map-pin"></i> Address: Zakho
+                 </div>
+                 <div class="email">
+                    <i class="fa fa-inbox"></i> Email: example@gmail.com
+                 </div>
+                 <div class="phone-number">
+                    <i class="fa fa-phone"></i> Phone number: +964*******
+                 </div>
+             </div>
+            </div>
+            </div>
+       <div class="footer-box-one">
+        <div class="text-box">
+            @2024 company-name
+            <a href="#">ABOUTUS</a>
+            <br>
+            This website is created by 
+            <a href="https://www.instagram.com/hassan_a_zaxoli?igsh=MTMwMjRmZGd6bWFnOQ==" target="_blank">
+                <i class="fa fa-instagram"></i>  Hassan Ahmed Khayat
+            </a>
+        </div>
+       </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+<script>
+
+document.getElementById("aboutus").style.color = "aqua";
+document.getElementById("aboutus").style.fontWeight = "bold";
+function langaugebox(){
+    var x = document.getElementById("langauge-box");
+
+    if(x.style.display === "block" ){
+        x.style.display = "none";
+    }else{
+        x.style.display = "block";
+    }
+}
+
+function showmore(){
+    var y = document.getElementById("navbar-phone")
+    if(y.style.display === "block" ){
+        y.style.animation = "slideout 1s forwards"
+        
+        setTimeout (() => {
+            y.style.display = "none";
+            document.getElementById("menu-icon").className = "fa fa-list";
+            },1000);;
+
+    }else{
+        y.style.animation = "slidein 1s forwards";
+        y.style.display = "block";
+        document.getElementById("menu-icon").className = "fa fa-close";
+    }
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
