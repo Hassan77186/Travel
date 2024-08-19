@@ -12,7 +12,9 @@
 
 <body>
 
-
+<a class="top-buttom" href="#top">
+    <i class="fa fa-chevron-up"></i>
+</a>
 
 
     <header>
@@ -91,7 +93,7 @@
 
     </div>
 
-    <div class="container">
+    <div class="container" id="top">
         <div class="image-box">
             <img src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg">
             <div class="box">
@@ -156,27 +158,27 @@
             </div>
         </div>
         <div class="bar-list">
-            <button class="box-button">
+            <button class="box-button" onclick="location.href='#flight';">
                 <div class="image">
-                    <img src="ticket-flight.png">
+                    <img src="images/ticket-flight.png">
                 </div>
                 <div class="title">FLIGHT</div>
             </button>
-            <button class="box-button">
+            <button class="box-button" onclick="location.href='#bus';">
                 <div class="image">
-                    <img src="bus.png">
+                    <img src="images/bus.png">
                 </div>
                 <div class="title">BUS</div>
             </button>
             <button class="box-button">
                 <div class="image">
-                    <img src="users-group.png">
+                    <img src="images/users-group.png">
                 </div>
                 <div class="title">GROUP</div>
             </button>
             <button class="box-button">
                 <div class="image">
-                    <img src="passport.png">
+                    <img src="images/passport.png">
                 </div>
                 <div class="title">VISA</div>
             </button>
@@ -184,7 +186,7 @@
 
         <div class="lists">
 
-                        <div class="list">
+                        <div class="list" id="bus">
                             <div class="image">
                 <img src="https://images.pexels.com/photos/1494582/pexels-photo-1494582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                 <div class="text">BUS</div>
@@ -214,7 +216,7 @@
 
             </div>
 
-            <div class="list">
+            <div class="list" id="flight">
                 <div class="image">
     <img src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="object-position: center;">
     <div class="text">FLIGHT</div>
@@ -258,7 +260,7 @@
             <div class="text-box">
              <div class="title">Company-Name</div>
              <div class="information">
-                 <div class="address">
+                <div class="address">
                     <i class="fa fa-map-pin"></i> Address: Zakho
                  </div>
                  <div class="email">
@@ -270,12 +272,15 @@
              </div>
             </div>
             </div>
+
        <div class="footer-box-one">
         <div class="text-box">
             @2024 company-name
-            <a href="#">ABOUTUS</a>
+            <br>
+            <a href="about-us.html">ABOUTUS</a>
             <br>
             This website is created by 
+            <br>
             <a href="https://www.instagram.com/hassan_a_zaxoli?igsh=MTMwMjRmZGd6bWFnOQ==" target="_blank">
                 <i class="fa fa-instagram"></i>  Hassan Ahmed Khayat
             </a>
